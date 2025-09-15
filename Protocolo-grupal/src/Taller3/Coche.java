@@ -8,7 +8,7 @@ public class Coche {
     public Coche(String marca, String modelo) {
         this.marca = marca;
         this.modelo = modelo;
-        contadorCoches++; // cada vez que se crea un objeto, aumenta el contador
+        contadorCoches++; // cada que se crea un objeto aumenta
     }
 
     public static void mostrarContador() {
